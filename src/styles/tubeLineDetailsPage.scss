@@ -1,0 +1,17 @@
+.tube_line_details_page_container {
+  margin-top: 250px;
+  section {
+    background-color: $grey-background;
+    padding: 5%;
+    border-radius: 20px;
+    border: 1px solid $grey-outline;
+
+    button {
+      color: $way-out-yellow;
+      background-color: black;
+      font-size: 20px;
+      padding: 5px 5px 3px 5px;
+      margin-top: 20px;
+    }
+  }
+}

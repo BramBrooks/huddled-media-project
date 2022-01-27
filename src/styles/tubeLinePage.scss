@@ -1,0 +1,98 @@
+.tube_lines_page_container {
+  background-color: white;
+  // background-color: $navy;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+
+  // main {
+  h1 {
+    align-self: flex-start;
+    margin-left: 16%;
+    margin-top: 2%;
+  }
+
+  p {
+    align-self: flex-start;
+    margin-left: 16%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  table {
+    width: 70%;
+    margin-top: -20px;
+
+    td {
+      border-top: 1px dotted $grey-outline;
+    }
+
+    th,
+    td {
+      padding: 10px;
+    }
+
+    th {
+      text-align: left;
+    }
+
+    .bakerloo {
+      color: #ffffff;
+      background-color: #ae6118;
+    }
+    .central {
+      color: #ffffff;
+      background-color: #e41f1f;
+    }
+    .circle {
+      color: #113892;
+      background-color: #f8d42d;
+    }
+    .district {
+      color: #ffffff;
+      background-color: #007229;
+    }
+    .DLR {
+      color: #ffffff;
+      background-color: #00bbb4;
+    }
+    .hammersmith_and_city {
+      color: #113892;
+      background-color: #e899a8;
+    }
+    .jubilee {
+      color: #ffffff;
+      background-color: #686e72;
+    }
+    .metropolitan {
+      color: #ffffff;
+      background-color: #893267;
+    }
+    .northern {
+      color: #ffffff;
+      background-color: #000000;
+    }
+    .overground {
+      color: #ffffff;
+      background-color: #f86;
+    }
+    .piccadilly {
+      color: #ffffff;
+      background-color: #0450a1;
+    }
+    .victoria {
+      color: #ffffff;
+      background-color: #009fe0;
+    }
+    .waterloo_and_city {
+      color: #113892;
+      background-color: #70c3ce;
+    }
+    .service-disruption {
+      color: #0450a1;
+    }
+  }
+  // }
+}

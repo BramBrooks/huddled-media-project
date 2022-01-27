@@ -1,0 +1,29 @@
+@import "variables.scss";
+
+body {
+  font-family: p22-underground, sans-serif;
+  font-size: large;
+  font-family: p22-underground-pc,  sans-serif;
+  font-family: p22-underground-sc,  sans-serif;
+}
+
+main {
+  margin: 5%;
+}
+
+.landing_page_container {
+  // width: 100%;
+  height: 100%;
+  background-color: $navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin: 350px 0 400px 0;
+    width: 150px;
+    height: auto;
+  }
+}
+
+@import "./tubeLinePage.scss";
+@import "./tubeLineDetailsPage.scss";
